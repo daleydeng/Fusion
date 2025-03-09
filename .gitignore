@@ -5,3 +5,7 @@ __pycache__/
 build/
 dist/
 imufusion.egg-info/
+*.exe
+*.obj
+.*
+!.gitignore

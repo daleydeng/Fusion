@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "D:\\msys64\\home\\vision\\contrib\\Fusion",
+    "file": "Fusion\\FusionAhrs.c",
+    "command": "cl /FoFusion\\FusionAhrs.obj /c Fusion\\FusionAhrs.c /nologo /I."
+  },
+  {
+    "directory": "D:\\msys64\\home\\vision\\contrib\\Fusion",
+    "file": "Fusion\\FusionCompass.c",
+    "command": "cl /FoFusion\\FusionCompass.obj /c Fusion\\FusionCompass.c /nologo /I."
+  },
+  {
+    "directory": "D:\\msys64\\home\\vision\\contrib\\Fusion",
+    "file": "Fusion\\FusionOffset.c",
+    "command": "cl /FoFusion\\FusionOffset.obj /c Fusion\\FusionOffset.c /nologo /I."
+  },
+  {
+    "directory": "D:\\msys64\\home\\vision\\contrib\\Fusion",
+    "file": "app\\main.c",
+    "command": "cl /Foapp\\main.obj /c app\\main.c /nologo /I."
+  }
+]

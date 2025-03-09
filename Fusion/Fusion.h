@@ -15,12 +15,12 @@
 extern "C" {
 #endif
 
-#include "FusionAhrs.h"
-#include "FusionAxes.h"
-#include "FusionCalibration.h"
-#include "FusionCompass.h"
-#include "FusionConvention.h"
-#include "FusionMath.h"
+#include "FusionAhrs.h" // IWYU pragma: export
+#include "FusionAxes.h" // IWYU pragma: export
+#include "FusionCalibration.h" // IWYU pragma: export
+#include "FusionCompass.h" // IWYU pragma: export
+#include "FusionConvention.h" // IWYU pragma: export
+#include "FusionMath.h" // IWYU pragma: export
 #include "FusionOffset.h"
 
 #ifdef __cplusplus
