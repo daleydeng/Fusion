@@ -6,6 +6,8 @@
 
 # Fusion
 
+Using Sconstruct for building, using [scons-compiledb](https://github.com/pinetr2e/scons-compiledb.git) for vscode editing.
+
 Fusion is a sensor fusion library for Inertial Measurement Units (IMUs), optimised for embedded systems.  Fusion is a C library but is also available as the Python package, [imufusion](https://pypi.org/project/imufusion/).  Two example Python scripts, [simple_example.py](https://github.com/xioTechnologies/Fusion/blob/main/Python/simple_example.py) and [advanced_example.py](https://github.com/xioTechnologies/Fusion/blob/main/Python/advanced_example.py) are provided with example sensor data to demonstrate use of the package.
 
 ## AHRS algorithm
@@ -22,7 +24,7 @@ Initialisation occurs when the algorithm starts for the first time and during an
 
 ### Angular rate recovery
 
-Angular rates that exceed the gyroscope measurement range cannot be tracked and will trigger an angular rate recovery.  Angular rate recovery is activated when the angular rate exceeds the 98% of the gyroscope measurement range and equivalent to a reinitialisation of the algorithm. 
+Angular rates that exceed the gyroscope measurement range cannot be tracked and will trigger an angular rate recovery.  Angular rate recovery is activated when the angular rate exceeds the 98% of the gyroscope measurement range and equivalent to a reinitialisation of the algorithm.
 
 ### Acceleration rejection
 
